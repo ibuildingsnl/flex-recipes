@@ -1,0 +1,21 @@
+Please add the following to the "scripts" key in your composer.json:
+
+"check": [
+    "@phplint",
+    "@phpcs",
+    "@phpcpd",
+    "@phpmd",
+    "@phpstan",
+    "@deptrac",
+    "@security",
+    "@test"
+],
+"security": "./tools/qa/scripts/security",
+"phplint": "./tools/qa/scripts/phplint",
+"phpcs": "./tools/qa/scripts/phpcs",
+"phpcbf": "./tools/qa/scripts/phpcbf",
+"phpmd": "./tools/qa/scripts/phpmd",
+"phpstan": "./tools/qa/scripts/phpstan",
+"deptrac": "./tools/qa/scripts/deptrac",
+"phpcpd": "./tools/qa/scripts/phpcpd",
+"test": "./tools/qa/scripts/phpunit"

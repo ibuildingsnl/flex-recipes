@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)/../../
+
+# https://github.com/sensiolabs-de/deptrac
+./vendor/bin/deptrac analyze tools/qa/depfile.yaml --formatter-graphviz=0 $1

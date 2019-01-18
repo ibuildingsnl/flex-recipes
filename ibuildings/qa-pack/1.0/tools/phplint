@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)/../../
+
+# https://github.com/overtrue/phplint
+./vendor/bin/phplint --configuration=tools/qa/phplint.yaml $1
