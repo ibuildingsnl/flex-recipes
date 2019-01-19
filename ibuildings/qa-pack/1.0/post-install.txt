@@ -1,4 +1,6 @@
-Please add the following to the "scripts" key in your composer.json:
+Done! You can find various scripts in the tools/qa folder.
+
+To use Composer please add the following shortcuts to the "scripts" key in your composer.json:
 
 "check": [
     "@phplint",
