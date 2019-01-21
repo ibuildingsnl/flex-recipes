@@ -19,7 +19,6 @@
     <file>../../src</file>
     <file>../../tests</file>
 
-
     <!-- function foo(): int -->
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
         <properties>
