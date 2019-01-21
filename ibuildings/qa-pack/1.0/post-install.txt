@@ -12,12 +12,12 @@ To use Composer please add the following shortcuts to the "scripts" key in your 
     "@security",
     "@test"
 ],
-"security": "./tools/qa/scripts/security",
-"phplint": "./tools/qa/scripts/phplint",
-"phpcs": "./tools/qa/scripts/phpcs",
-"phpcbf": "./tools/qa/scripts/phpcbf",
-"phpmd": "./tools/qa/scripts/phpmd",
-"phpstan": "./tools/qa/scripts/phpstan",
-"deptrac": "./tools/qa/scripts/deptrac",
-"phpcpd": "./tools/qa/scripts/phpcpd",
-"test": "./tools/qa/scripts/phpunit"
+"security": "./tools/qa/security",
+"phplint": "./tools/qa/phplint",
+"phpcs": "./tools/qa/phpcs",
+"phpcbf": "./tools/qa/phpcbf",
+"phpmd": "./tools/qa/phpmd",
+"phpstan": "./tools/qa/phpstan",
+"deptrac": "./tools/qa/deptrac",
+"phpcpd": "./tools/qa/phpcpd",
+"test": "./tools/qa/phpunit"
