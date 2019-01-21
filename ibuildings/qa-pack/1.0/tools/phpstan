@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cd $(dirname $0)/../../../
+cd $(dirname $0)/../../
 
-vendor/bin/phpstan analyse -c tools/qa/config/phpstan.neon
+./vendor/bin/phpstan analyse -c tools/qa/phpstan.neon
