@@ -1,5 +1,6 @@
 {
     "copy-from-recipe": {
         "tools/": "tools/qa/"
-    }
+    },
+    "aliases": ["qa", "qa-tools"]
 }
