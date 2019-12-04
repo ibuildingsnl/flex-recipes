@@ -1,9 +1,10 @@
 includes:
     - ../../vendor/phpstan/phpstan-symfony/extension.neon
+    - ../../vendor/phpstan/phpstan-symfony/rules.neon
 
 parameters:
-    level: 7
+    level: 8
     paths:
-        - src
+        - ../../src
     symfony:
         container_xml_path: %currentWorkingDirectory%/var/cache/dev/srcDevDebugProjectContainer.xml
