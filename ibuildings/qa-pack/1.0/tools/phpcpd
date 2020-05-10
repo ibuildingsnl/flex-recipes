@@ -5,4 +5,4 @@ cd $(dirname $0)/../../
 # https://github.com/sebastianbergmann/phpcpd
 ./vendor/bin/phpcpd \
     --names=*.php \
-    src $1
+    src tests $1
