@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+         xsi:noNamespaceSchemaLocation="../../vendor/squizlabs/php_codesniffer/phpcs.xsd">
 
     <arg name="basepath" value="../../"/>
     <arg name="cache" value="../../var/qa/phpcs.cache"/>
@@ -16,8 +16,8 @@
     <rule ref="Doctrine"/>
 
     <!-- Directories to be checked -->
-    <file>../../src</file>
-    <file>../../tests</file>
+    <file>../../src/</file>
+    <file>../../tests/</file>
 
     <!-- function foo(): int -->
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
