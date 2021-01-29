@@ -9,10 +9,8 @@ To use Composer please add the following shortcuts to the "scripts" key in your 
     "@phpmd",
     "@phpstan",
     "@deptrac",
-    "@security",
     "@test"
 ],
-"security": "./tools/qa/security",
 "phplint": "./tools/qa/phplint",
 "phpcs": "./tools/qa/phpcs",
 "phpcbf": "./tools/qa/phpcbf",
