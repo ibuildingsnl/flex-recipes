@@ -2,11 +2,15 @@ includes:
     - ../../vendor/phpstan/phpstan-symfony/extension.neon
     - ../../vendor/phpstan/phpstan-symfony/rules.neon
     - ../../vendor/phpstan/phpstan-strict-rules/rules.neon
+    - ../../vendor/phpstan/phpstan-phpunit/extension.neon
+    - ../../vendor/phpstan/phpstan-phpunit/rules.neon
 
 parameters:
-    level: 8
+    level: max
     paths:
         - ../../src
         - ../../tests
+    excludePaths:
+        - ../../tests/bootstrap.php
     symfony:
         container_xml_path: %currentWorkingDirectory%/var/cache/dev/srcDevDebugProjectContainer.xml
