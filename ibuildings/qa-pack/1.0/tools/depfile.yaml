@@ -1,8 +1,8 @@
-# https://github.com/sensiolabs-de/deptrac
+# https://github.com/qossmic/deptrac
 paths:
     - ../../src
 exclude_files:
-    - .*test.*
+    - '#.*test.*#'
 layers:
     -   name: Application
         collectors:

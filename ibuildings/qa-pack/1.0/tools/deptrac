@@ -4,5 +4,5 @@ cd $(dirname $0)/../../
 mkdir -p var/qa
 cd var/qa
 
-# https://github.com/sensiolabs-de/deptrac
+# https://github.com/qossmic/deptrac
 ./../../vendor/bin/deptrac analyze ../../tools/qa/depfile.yaml --formatter-graphviz=0 $1
